@@ -1,0 +1,96 @@
+h1,h2,h3,h4,h5.h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: inline-flex;
+    background: rgb(13, 14, 13);
+    width: 100%;
+    margin-left: 20px;
+}
+.logo{
+    padding: 10px;
+}
+.logo h1{
+    font-family: 'Parisienne', cursive;
+    font-size: 40px;
+    color: #fff;
+    margin-left: 150px;
+}
+.logo h3{
+    font-style: italic;
+    color: cornsilk;
+    margin-left: 240px;
+    margin-top: -5px;
+    font-size: 15px;
+}
+
+.menubar nav ul{
+    
+    padding: 22px;
+    width: 100%;
+}
+.menubar nav ul li{
+    display: inline;
+}
+.menubar nav ul li a{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    font-size: 25px;
+    
+}
+.menubar nav ul li a:hover{
+    background-color: rgb(12, 12, 12);
+    transition: 2s ;
+    border-radius: 5px solid black;
+    color: black;    
+}
+.shorejaw{
+    margin-left:50px;
+}
+.img{
+    width: 100%;
+    text-align: center;
+    padding:20px;
+}
+.img img{
+    width: 100%;
+    margin-top: -20px;
+}
+.img_header{
+    margin-top: -1000px;
+}
+.img_header h1{
+    font-size: 120px;
+    text-transform: uppercase;
+    color: rgb(9, 13, 248);
+}
+.img_header h3{
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 10px;
+    text-color: black;
+    clear: black ;
+    
+
+}
+
+.img_header button{
+    width: 180px;
+    height: 30px;
+    text-transform: uppercase;
+    color: rgb(21, 21, 165);
+    font-size: 20px;
+    border-radius: 3px;
+    border: none;
+    padding: 5px;
+    font-family: 'Parisienne', cursive;
+    
+}
+.img_header button:hover{
+    background-color: rgb(8, 8, 8);
+    transition: 2s;
+    color: rgb(12, 12, 12);
+}
